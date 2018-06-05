@@ -2,7 +2,7 @@
 
 <div class="breadcrumb">
         <div class="container">
-            <h1 class="white"><?php the_title(); ?></h1>
+            <h1 class="white"><?php strtoupper(the_title()); ?></h1>
             <ul class="breadcrumb-list">
                 <li><a href="<?php bloginfo('template_url'); ?>/index.php">Home</a></li>
                 <li class="bread-text"><?php the_title(); ?></li>
@@ -66,8 +66,8 @@
 
 <?php get_footer(); ?>
 
-<!-- all js here -->
-<script src="<?php bloginfo('template_url'); ?>/js/jquery.js"></script>
+    <!-- all js here -->
+    <script src="<?php bloginfo('template_url'); ?>/js/jquery.js"></script>
     <script src="<?php bloginfo('template_url'); ?>/js/bootstrap.min.js"></script>
     <!-- Slide plugin -->
     <script src="<?php bloginfo('template_url'); ?>/js/owl.carousel.min.js"></script>

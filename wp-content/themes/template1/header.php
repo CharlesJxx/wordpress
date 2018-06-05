@@ -88,16 +88,11 @@
 					</div>
 					<div class="right-nav-list">
 						<div class="main-menu floatright">
-							<nav>
+						<nav><?php wp_nav_menu( array( 'depth' => 1, 'theme_location' => 'primary', 'container' => false ) ); ?></nav><!-- #site-navigation -->
+							<!-- <nav>
 								<ul>
 									<li <?php if (is_home()) { echo 'class="active"';} ?>><a title="<?php bloginfo('name'); ?>"  href="<?php echo get_option('home'); ?>/">Home</a></li>
 									<?php wp_list_pages('depth=1&title_li=0&sort_column=menu_order'); ?>
-										<ul class="sub-menu">
-											<?php wp_list_pages('depth=1&title_li=0&sort_column=menu_order'); ?>
-											<!-- <li><a href="<?php bloginfo('template_url'); ?>/Enterprise-Culture.php">Enterprise Culture</a></li>
-											<li><a href="<?php bloginfo('template_url'); ?>/history.php">International Trade</a></li>
-											<li><a href="<?php bloginfo('template_url'); ?>/team.php">International Trade</a></li> -->
-										</ul>
 									<!-- <li><a href="<?php bloginfo('template_url'); ?>/about.php">About Us <i class="fa fa-angle-down"></i></a>
 										<ul class="sub-menu">
 											<li><a href="<?php bloginfo('template_url'); ?>/Enterprise-Culture.php">Enterprise Culture</a></li>
@@ -131,10 +126,9 @@
 											<li><a href="news.php">News</a></li>
 											<li><a href="news-detail.php">News details</a></li>
 										</ul>
-									</li>
-									<li><a href="contact.php">CONTACT</a></li> -->
+									</li> -->
 								</ul>
-							</nav>
+							</nav> -->
 						</div>
 						<div class="mobile-menu-con"><div class="mobile-menu"></div></div>
 					</div>

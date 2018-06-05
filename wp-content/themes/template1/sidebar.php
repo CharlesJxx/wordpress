@@ -1,7 +1,7 @@
 <div class="left-sidebar">
     <div class="about-sidebar mb-30">
         <ul class="sidebar">
-            <li><a href="about.html"><span class="yellow">About us</span></a></li>
+            <li><a href="about.html"><span class="yellow"><?php the_title();?></span></a></li>
             <li><a href="history.html">History</a></li>
             <li><a href="partners.html">Partners</a></li>
             <li><a href="team.html">Team</a></li>
