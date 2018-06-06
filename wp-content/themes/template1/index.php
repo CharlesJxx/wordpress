@@ -138,36 +138,6 @@
         </div><!-- /container -->
     </section>
 
-    <section class="counter">
-        <div class="container">
-            <div class="row mb-30">
-                <div class="counter-con text-center counter-box">
-                    <img src="<?php bloginfo('template_url'); ?>/img/counter/1.png" alt="">
-                    <h3 class="timer" data-from="0" data-to="1130" data-speed="12000" data-refresh-interval="100"></h3>
-                    <p>Project Completed</p>
-                </div>
-
-                <div class="counter-con text-center counter-box">
-                    <img src="<?php bloginfo('template_url'); ?>/img/counter/2.png" alt="">
-                    <h3 class="timer" data-from="0" data-to="850" data-speed="12000" data-refresh-interval="100"></h3>
-                    <p>Happy Clients</p>
-                </div>
-
-                <div class="counter-con text-center">
-                    <img src="<?php bloginfo('template_url'); ?>/img/counter/3.png" alt="">
-                    <h3 class="timer" data-from="0" data-to="130" data-speed="15000" data-refresh-interval="110"></h3>
-                    <p>Happy Clients</p>
-                </div>
-
-                <div class="counter-con text-center">
-                    <img src="<?php bloginfo('template_url'); ?>/img/counter/4.png" alt="">
-                    <h3 class="timer" data-from="0" data-to="550" data-speed="12000" data-refresh-interval="100"></h3>
-                    <p>Awards Won</p>
-                </div>
-            </div><!-- /row -->
-        </div><!-- /container -->
-    </section>
-
     <section class="works">
         <div class="container">
             <div class="section-title mb-50 text-center">
@@ -480,8 +450,6 @@
     <script src="<?php bloginfo('template_url'); ?>/js/jquery.magnific-popup.js"></script>
     <!-- Custom js -->
     <script src="<?php bloginfo('template_url'); ?>/js/main.js"></script>
-    <!-- Digital dynamic increase -->
-    <script src="<?php bloginfo('template_url'); ?>/js/jquery.countTo.js"></script>
 
     <script>
     	$('.owl-carousel').owlCarousel({
@@ -513,8 +481,6 @@
                 enabled:true
               }
         });
-
-        $('.timer').countTo();
     </script>
 
 

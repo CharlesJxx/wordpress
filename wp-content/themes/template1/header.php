@@ -83,12 +83,12 @@
 				<div class="row">
 					<div class="logo-container">
 						<div class="logo">
-							<a href="index.php"><img src="<?php bloginfo('template_url'); ?>/img/logo/logo.png" alt="" /></a>
+							<a href="<?php echo get_option('home'); ?>"><img src="<?php bloginfo('template_url'); ?>/img/logo/logo.png" alt="" /></a>
 						</div>
 					</div>
 					<div class="right-nav-list">
 						<div class="main-menu floatright">
-						<nav><?php wp_nav_menu( array( 'depth' => 1, 'theme_location' => 'primary', 'container' => false ) ); ?></nav><!-- #site-navigation -->
+							<?php wp_nav_menu(array('container' => 'nav')); ?>
 							<!-- <nav>
 								<ul>
 									<li <?php if (is_home()) { echo 'class="active"';} ?>><a title="<?php bloginfo('name'); ?>"  href="<?php echo get_option('home'); ?>/">Home</a></li>
