@@ -237,6 +237,10 @@ section {
   max-width: 100%;
   height: auto;
 }
+.wp-post-image{
+  width: 870px;
+  height: 363px;
+}
 .form-group{
   margin-bottom:15px;
 }

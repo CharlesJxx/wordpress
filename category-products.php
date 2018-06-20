@@ -33,7 +33,7 @@
                         <div class="project-wrapper">
                             <div class="project-img">
                                 <a href="#">
-                                    <img src="<?php bloginfo('template_url'); ?>/img/works/1.jpg" alt="">
+                                <?php the_post_thumbnail();?>
                                 </a>
                                 <div class="project-caption">
                                     <a class="protfolio-icon image-link test-popup-link" href="<?php bloginfo('template_url'); ?>/img/works/1.jpg">

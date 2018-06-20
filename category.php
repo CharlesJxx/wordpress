@@ -18,7 +18,7 @@
             <div class="news-con">
                 <div class="blog-wrapper mb-30">
                     <div class="blog-img">
-                        <img src="<?php bloginfo('template_url'); ?>/img/blog/news1.jpg" alt="" class="img-responsive">
+                    <?php the_post_thumbnail();?>
                     </div>
                     <div class="blog-text">
                         <div class="blog-info">

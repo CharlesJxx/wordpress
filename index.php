@@ -51,17 +51,13 @@
                 </div>
 
                 <div class="abt-worker-con">
+                <?php $article_id = 167;?>
                     <div class="section-title mb-30">
                         <h5>ABOUT US</h5>
-                        <h2>CREATE YOUR HOME</h2>
+                        <h2><?php echo get_post($article_id)->post_title;?></h2>
                     </div><!-- /section-title -->
-                    <p class="mb-30">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <a href="#" class="btn btn-default">View More</a>
+                    <p class="mb-30"><?php echo get_post($article_id)->post_content;?></p>
+                    <a href="<?php echo get_permalink( $article_id );?>" class="btn btn-default">View More</a>
                 </div>
             </div><!-- /row -->
         </div><!-- /container -->
@@ -142,7 +138,7 @@
         <div class="container">
             <div class="section-title mb-50 text-center">
                 <h5>WORKS</h5>
-                <h2>OUR LATEST PROJECTS</h2>
+                <h2>OUR LATEST PRODUCTS</h2>
             </div>
 
             <div class="row mb-30">
